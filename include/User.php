@@ -8,7 +8,7 @@ class User
 	public $email;
 	public $age;
 	public $gender;
-	public $ethnicity;
+	public $winter;
 	public $income;
 	public $homeZIP;
 	public $schoolZIP;
@@ -34,8 +34,8 @@ class User
 			if ( isset( $object->gender ) )
 				$this->gender       = $object->gender;
 
-			if ( isset( $object->ethnicity ) )
-				$this->ethnicity       = $object->ethnicity;
+			if ( isset( $object->winter ) )
+				$this->winter       = $object->winter;
 
 			if ( isset( $object->income ) )
 				$this->income       = $object->income;
@@ -86,7 +86,7 @@ class User
 			'email'        	=> $this->email,
 			'age'          	=> $this->age,
 			'gender'       	=> $this->gender,
-			'ethnicity'    	=> $this->ethnicity,
+			'winter'    	=> $this->winter,
 			'income'       	=> $this->income,
 			'homeZIP'      	=> $this->homeZIP,
 			'schoolZIP'    	=> $this->schoolZIP,
